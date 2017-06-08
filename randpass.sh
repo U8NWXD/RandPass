@@ -90,12 +90,12 @@ while getopts ":l:e:bsnca:h" opt; do
       ;;
     \?)
       echo "Invalid Option: -$OPTARG"
-      echo "Run ./dicepass.sh -h for help"
+      echo "Run ./randpass.sh -h for help"
       exit 1
       ;;
     :)
       echo "Option -$OPTARG requires an argument"
-      echo "Run ./dicepass.sh -h for help"
+      echo "Run ./randpass.sh -h for help"
       exit 1
       ;;
   esac
